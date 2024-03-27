@@ -29,12 +29,13 @@ const Cv = () => {
                             https://github.com/GbollySckoky?tab=repositories
                         </Link>
                     </div>
-                    <div style={{display: "flex", alignItems:'center'}}>
+                    
+                </div>
+                <div style={{display: "flex", alignItems:"center", justifyContent:"center", paddingBottom:"20px"}}>
+                <div style={{display: "flex", alignItems:'center'}}>
                         <span id='th'><BiLogoGmail/></span>
                         <p>gbolahancoker99@gmail.com</p>
                     </div>
-                </div>
-                <div style={{display: "flex", alignItems:"center", justifyContent:"center", paddingBottom:"20px"}}>
                 <div style={{display: "flex", alignItems:'center'}}>
                         <span id='th'><BsFillTelephoneFill /></span>
                         <p>+234(907 543 7117)</p>

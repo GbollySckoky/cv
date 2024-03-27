@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: black;
+  /* padding: 0 10px; */
+}
+#the > div{
+  padding: 0 10px ;
+}
+#th{
+  padding-right: 10px;
+}
+hr{
+  background-color: black;
+  height: 2px;
+  /* align-items: ; */
+  /* justify-content: space-evenly; */
+}
+li{
+  padding: 3px 0;
+}

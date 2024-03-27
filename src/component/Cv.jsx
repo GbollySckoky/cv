@@ -33,14 +33,13 @@ const Cv = () => {
                         <span id='th'><BiLogoGmail/></span>
                         <p>gbolahancoker99@gmail.com</p>
                     </div>
-                    <div style={{display: "flex", alignItems:'center'}}>
+                </div>
+                <div style={{display: "flex", alignItems:"center", justifyContent:"center", paddingBottom:"20px"}}>
+                <div style={{display: "flex", alignItems:'center'}}>
                         <span id='th'><BsFillTelephoneFill /></span>
                         <p>+234(907 543 7117)</p>
                     </div>
-                </div>
-                <div style={{display: "flex", alignItems:"center", justifyContent:"space-evenly"}}>
-                    
-                    <div style={{display: "flex",alignItems:'center', paddingBottom:"20px"}}>
+                    <div style={{display: "flex",alignItems:'center', }}>
                         <span id='th'><MdOutlineLocationOn/></span>
                         <p>IKEJA, LAGOS NIGERIA </p>
                 </div>
@@ -49,7 +48,7 @@ const Cv = () => {
         </div>
         
         {/* Profile */}
-        <div style={{margin: "auto", width:"95%", marginTop:"40px"}}>
+        <div style={{ marginTop:"40px"}}>
         <div>
             <h5 style={{font:'700', fontSize:"18px"}}>PROFILE</h5>
             <hr />

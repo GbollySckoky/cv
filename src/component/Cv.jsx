@@ -8,10 +8,10 @@ import { MdOutlineLocationOn } from "react-icons/md";
 const Cv = () => {
   return (
     <div>
-        <div >
+        <div style={{backgroundColor:"#102A73",marginBottom: "20px", color:"white"}}>
             <div style={{textAlign:"center", paddingTop: "30px"}}>
-                <h1 >Gbolahan Coker</h1>
-                <p style={{paddingTop:"5px"}}>Frontend Developer</p>
+                <h1>Gbolahan Coker</h1>
+                <p style={{paddingTop:"5px", }}>Frontend Developer</p>
             </div>
             <div>
                 <div id='the' style={{display: "flex", alignItems:"center", justifyContent:"center", padding: "10px"}}>
@@ -49,26 +49,26 @@ const Cv = () => {
         </div>
         
         {/* Profile */}
-        <div style={{margin: "auto", width:"95%"}}>
+        <div style={{margin: "auto", width:"95%", marginTop:"40px"}}>
         <div>
-            <h5>PROFILE</h5>
+            <h5 style={{font:'700', fontSize:"18px"}}>PROFILE</h5>
             <hr />
-            <p style={{paddingTop:'10px'}}>I am a dedicated front-end developer with a passion for crafting visually appealing, 
+            <p style={{paddingTop:'10px', fontSize:"20px"}}>I am a dedicated front-end developer with a passion for crafting visually appealing, 
                 user-friendly websites. My objective is to collaborate with dynamic teams, continuously 
                 staying abreast of the latest design trends and technologies to deliver exceptional online 
                 experiences.</p>
         </div>
         {/* Work */}
         <div style={{paddingTop: '20px'}}>
-            <h5>WORK HISTORY</h5>
+            <h5 style={{font:'700', fontSize:"18px"}}>WORK HISTORY</h5>
             <hr />
             <div style={{display:"flex", paddingTop:"10px"}}>
                 <div>
-                    <p>02/2024_Current</p>
+                    <p style={{fontSize:"18px"}}>02/2024_Current</p>
                 </div>
                 <div style={{marginLeft:"50px"}}>
-                    <h4>Front End Developer Intern</h4>
-                    <p>Intrapair - Remote</p>
+                    <h4 style={{fontSize:"20px"}}>Front End Developer Intern</h4>
+                    <p style={{padding:"5px 0", fontSize:"18px"}}>Intrapair - Remote</p>
                     <li>
                         Collaborated with back-end developers to improve website functionality and integrate new features.
                     </li>
@@ -79,11 +79,10 @@ const Cv = () => {
                     <li>
                         Worked closely with UX/UI designers to translate their designs into functional web applications
                     </li>
-                    <li style={{lineHeight: "25px"}}>
+                    <li style={{lineHeight: "30px"}}>
                     I have experience implementing CRUD operations in web applications. This includes creating, reading,
-                    updating, and deleting data through interactions between the frontend and backend systems. 
-                    I'm proficient in <span style={{marginLeft:"20px"}}>
-                    utilizing HTTP methods such as POST, GET, PUT/PATCH, and DELETE to perform 
+                    updating, and deleting data through interactions between the frontend <span style={{marginLeft:"24px"}}> and backend systems. 
+                    I'm proficient in utilizing HTTP methods such as POST, GET, PUT/PATCH, and DELETE to perform 
                     these operations efficiently and securely.
                     </span>
                     </li>
@@ -92,7 +91,7 @@ const Cv = () => {
         </div>
         {/* Skills */}
         <div>
-            <h5>SKILLS</h5>
+            <h5 style={{font:'700', fontSize:"18px"}}>SKILLS</h5>
             <hr />
         </div>
         <div style={{padding: "10px 0"}}>
@@ -120,25 +119,25 @@ const Cv = () => {
         </div>
         {/* EDucation */}
         <div style={{paddingTop:"10px"}}>
-            <h5>EDUCATION</h5>
+            <h5 style={{font:'700', fontSize:"18px"}}>EDUCATION</h5>
             <hr />
         </div>
         <div>
             <div style={{display:"flex", paddingTop:"10px"}}>
                 <div>
-                <p>2022</p> 
+                <p style={{fontSize:"20px"}}>2022</p> 
                 </div>
-                <div style={{marginLeft:"90px"}}>
-                    <h4>Bachelor of Science: Business Education</h4>
+                <div style={{marginLeft:"100px"}}>
+                    <h4 style={{paddingBottom:"5px", fontSize:"20px"}}>Bachelor of Science: Business Education</h4>
                     <p>Olabisi Onabanjo University - Ago-iwoye Ogun State</p>
                 </div>
             </div>
             <div style={{display:"flex", padding:"15px 0"}}>
                 <div>
-                <p>2016</p> 
+                <p style={{fontSize:"20px"}}>2016</p> 
                 </div>
-                <div style={{marginLeft:"90px"}}>
-                    <h4>High School Diploma</h4>
+                <div style={{marginLeft:"100px"}}>
+                    <h4 style={{paddingBottom:"5px", fontSize:"20px"}}>High School Diploma</h4>
                     <p>Mayflower School - Ikenne Ogun State</p>
                 </div>
             </div>
@@ -146,29 +145,29 @@ const Cv = () => {
         {/* Certifivation */}
         <div>
             <div>
-                <h5>CERTIFICATION</h5>
+                <h5 style={{font:'700', fontSize:"18px", paddingTop:"20px"}}>CERTIFICATION</h5>
                 <hr />
             </div>
             <div style={{display:"flex", paddingTop:"10px"}}>
-                <p>2023</p>
-                <p style={{marginLeft: "84px"}}>Full-Stack WebDevelopment BootCamp, Gomycode Yaba Lagos.</p>
+                <p style={{fontSize:"20px"}}>2023</p>
+                <p style={{marginLeft: "84px", fontSize:"18px"}}>Full-Stack WebDevelopment BootCamp, Gomycode Yaba Lagos.</p>
             </div>
         </div>
         {/* Projects */}
         <div>
             <div style={{paddingTop:"30px"}}>
-                <h5>PROJECTS</h5>
+                <h5 style={{font:'700', fontSize:"18px"}}>PROJECTS</h5>
                 <hr />
             </div>
             <div style={{display: "flex", paddingTop: "15px"}}>
                 <div>
-                    <p>2023</p>
+                    <p style={{fontSize:"20px"}}>2023</p>
                 </div>
-                <div style={{marginLeft: "80px"}}>
-                    <h5 style={{paddingBottom: "8px"}}>MOVIE DISCOVERY APP</h5>
-                    <p>React, Tailwind CSS, Redux, useEffect, useState, CRUD</p>
+                <div style={{marginLeft: "100px"}}>
+                    <h5 style={{paddingBottom: "8px", fontSize:"18px"}}>MOVIE DISCOVERY APP</h5>
+                    <p style={{fontSize:"18px", paddingBottom:"5px"}}>React, Tailwind CSS, Redux, useEffect, useState, CRUD</p>
                     <li style={{lineHeight: "25px"}}>In the development of a dynamic movie website leveraging the TMDb API,
-                        I crafted a feature-rich Movie Discovery web application. Users can seamlessly search for movies, explore detailed information, and curate  a list of  <span style={{paddingLeft:"19px"}}> their favorite films. Key highlights of the project include:</span>
+                        I crafted a feature-rich Movie Discovery web application. Users can seamlessly search for movies,  <span style={{paddingLeft:"24px", lineHeight:"30px"}}> explore detailed information, and curate  a list of , their favorite films. Key highlights of the project include:</span>
                     </li>
                     <li>State Management: Employed Redux and the useState hook to effectively manage the state 
                         of the application, ensuring a streamlined and predictable flow of data.
@@ -184,21 +183,21 @@ const Cv = () => {
             </div>
             <div style={{display: "flex", padding: "35px 0"}}>
                 <div>
-                    <p>2023</p>
+                    <p style={{fontSize:"20px"}}>2023</p>
                 </div>
-                <div style={{marginLeft: "80px"}}>
-                    <h5 style={{paddingBottom: "8px"}}>BLOGS WEBSITE</h5>
-                    <p>React, CRUD operations, JSON server, useState, UseEffect, Redux</p>
+                <div style={{marginLeft: "100px"}}>
+                    <h5 style={{paddingBottom: "8px", fontSize:"18px"}}>BLOGS WEBSITE</h5>
+                    <p style={{paddingBottom: "8px", fontSize:"18px"}}>React, CRUD operations, JSON server, useState, UseEffect, Redux</p>
                     <li style={{lineHeight: "25px"}}>I developed a dynamic Blog website, integrating React, CRUD operations,
-                     a JSON server, and state management tools such as useState, useEffect, and Redux. Here's an overview of the key features:
+                     a JSON server, and state management tools such as useState, useEffect, and Redux. Here's an overview <span style={{marginLeft: "27px", lineHeight:"33px"}}>of the key features:</span> 
                     </li>
                     <li>CRUD Operations: Implemented comprehensive Create, Read, and Delete (CRUD) functionalities to empower 
                         users in managing blog content seamlessly.
                     </li>
                     <li style={{lineHeight: "25px"}}>
                         This Blog website combines the power of React components, CRUD operations, a JSON server for data storage, 
-                        and effective use of state management tools. Users can create, read, and delete blog entries in a 
-                        user-friendly <span style={{marginLeft: '20px'}}>environment, making the platform versatile and accessible for content management.</span> 
+                        and effective use of state management tools. Users can create, <span style={{marginLeft: '28px',lineHeight:"33px"}}> read, and delete blog entries in a 
+                        user-friendly environment, making the platform versatile and accessible for content management.</span> 
                     </li>
                 </div>
             </div>
